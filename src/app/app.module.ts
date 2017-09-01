@@ -4,11 +4,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { accordionComponent } from './accordion/app.accordionComponent';
+import { alertComponent } from './alerts/app.alertComponent';
+import { buttonComponent } from './buttons/app.buttonComponent';
 
 @NgModule({
   declarations: [
     AppComponent,
-    accordionComponent
+    accordionComponent,
+    alertComponent,
+    buttonComponent
   ],
   imports: [
     NgbModule.forRoot(),

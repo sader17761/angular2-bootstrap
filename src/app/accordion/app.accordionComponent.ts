@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'ngbd-accordion-basic',
   templateUrl: './accordion.html'
 })
-export class accordionComponent {
 
+export class accordionComponent {
+  accordionTitle = 'Bootstrap Accordion'
 }
